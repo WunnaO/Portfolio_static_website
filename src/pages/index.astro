@@ -1,0 +1,47 @@
+---
+import Layout from "../layouts/Layout.astro";
+import "../css/style.css";
+import OurTeam from "../components/OurTeam.astro";
+import Galleries from "../components/Galleries.astro";
+import image_L from "/assets/img_L.jpg";
+import image_S from "/assets/img_S.jpg";
+
+---
+
+<Layout title="Welcome to Astro.">
+  <section>
+    <div class="home">
+      <div class="home-content">
+        <div class="first_content">
+          <h1>I AM ROXY</h1>
+          <h5>Kitesurfer</h5>
+        </div>
+        <div class="second_content">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex,
+            molestiae laborum dolorem aspernatur, doloremque rem corporis ut
+            officiis enim possimus quia blanditiis, saepe esse sed nemo sint
+            aperiam eum similique.
+          </p>
+          <!-- <p>MORE ABOUT ME</p> -->
+        </div>
+      </div>
+      <div class="image">
+        <img
+          class="image_1"
+          src={image_L}
+        />
+        <img
+          class="image_2"
+          src={image_S}
+          alt="roxy"
+        />
+      </div>
+    </div>
+  </section>
+
+  <Galleries/>
+
+  <OurTeam/>
+
+</Layout>

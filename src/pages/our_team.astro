@@ -1,0 +1,21 @@
+---
+import Layout from "../layouts/Layout.astro";
+import "../css/style.css";
+import Card from "../components/Card.astro";
+---
+
+<Layout title="our_team">
+  <section class="our_team_section">
+    <div class="content">
+      <p>Group Members</p>
+    </div>
+    <div class="container">
+      <div class="card-list">
+        <Card title="Wunna Oo" img_url="/assets/WNO.jpg" />
+        <Card title="Thin Thiri Hlaing" img_url="/assets/TTH.jpg" />
+        <Card title="Khin Hme Hme Htun" img_url="/assets/KHHHT.jpg" />
+        <Card title="Ei Thawdar Yamin" img_url="/assets/ETY.jpg" />
+      </div>
+    </div>
+  </section>
+</Layout>
