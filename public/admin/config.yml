@@ -18,6 +18,6 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Description", name: "description", widget: "string"}
       - {label: "Publish Date", name: "publishDate", widget: "date"}
-      - {label: "Roxy Image", name: "roxyImage", widget: "assets "}
+      - {label: "Roxy Image", name: "roxy", widget: "image"}
       - {label: "Rating (scale of 1-5)", name: "rating", widget: "number"}
       - {label: "Body", name: "body", widget: "markdown"}
